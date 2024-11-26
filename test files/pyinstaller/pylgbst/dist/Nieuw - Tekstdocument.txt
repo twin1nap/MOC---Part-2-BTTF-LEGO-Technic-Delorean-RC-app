@@ -1,0 +1,1309 @@
+[PYI-12116:DEBUG] PyInstaller Bootloader 6.x
+[PYI-12116:DEBUG] LOADER: executable file: C:\Users\joran\Documents\projects\controle lego met python\test\pyinstaller\pylgbst\dist\test_lgbst.exe
+[PYI-12116:DEBUG] LOADER: trying to load executable-embedded archive...
+[PYI-12116:DEBUG] LOADER: attempting to open archive C:\Users\joran\Documents\projects\controle lego met python\test\pyinstaller\pylgbst\dist\test_lgbst.exe
+[PYI-12116:DEBUG] LOADER: cookie found at offset 0x98AB70
+[PYI-12116:DEBUG] LOADER: archive file: C:\Users\joran\Documents\projects\controle lego met python\test\pyinstaller\pylgbst\dist\test_lgbst.exe
+[PYI-12116:DEBUG] LOADER: application has onefile semantics...
+[PYI-12116:DEBUG] LOADER: _PYI_ARCHIVE_FILE not defined...
+[PYI-12116:DEBUG] LOADER: process level = 0
+[PYI-12116:DEBUG] LOADER: this is parent process of onefile application.
+[PYI-12116:DEBUG] LOADER: initializing security descriptor for temporary directory...
+[PYI-12116:DEBUG] LOADER: initializing security descriptor from string: D:(A;;FA;;;S-1-5-21-3898948600-3721384971-4080061954-1001)
+[PYI-12116:DEBUG] LOADER: creating temporary directory (runtime_tmpdir=(null))...
+[PYI-12116:DEBUG] LOADER: attempting to create temporary application directory under C:\Users\joran\AppData\Local\Temp\
+[PYI-12116:DEBUG] LOADER: created temporary directory: C:\Users\joran\AppData\Local\Temp\_MEI121162
+[PYI-12116:DEBUG] LOADER: application's top-level directory: C:\Users\joran\AppData\Local\Temp\_MEI121162
+[PYI-12116:DEBUG] LOADER: calling SetDllDirectory: C:\Users\joran\AppData\Local\Temp\_MEI121162
+[PYI-12116:DEBUG] LOADER: splash screen is unavailable.
+[PYI-12116:DEBUG] LOADER: extracting files to temporary directory...
+[PYI-12116:DEBUG] LOADER: setting _PYI_APPLICATION_HOME_DIR to C:\Users\joran\AppData\Local\Temp\_MEI121162
+[PYI-12116:DEBUG] LOADER: starting the child process...
+[PYI-12116:DEBUG] LOADER: setting up child process...
+[PYI-12116:DEBUG] LOADER: child process started!
+[PYI-12116:DEBUG] LOADER: creating hidden window to capture system shutdown events...
+[PYI-27320:DEBUG] PyInstaller Bootloader 6.x
+[PYI-27320[PYI-1:DEBUG2116:DEBUG] LOADER: hidden window crea] LOADER: executable file: C:\Users\joran\Documents\projects\controle lego met python\test\pyinstaller\pylgbst\dist\test_lgbst.exe
+ted!
+[PYI-27320:DEBUG] LOADER: trying to load executable-embedded archive...
+[PYI-12116:DEBUG] LOADER: entering the waiting loop...
+[PYI-27320:DEBUG] LOADER: attempting to open archive C:\Users\joran\Documents\projects\controle lego met python\test\pyinstaller\pylgbst\dist\test_lgbst.exe
+[PYI-27320:DEBUG] LOADER: cookie found at offset 0x98AB70
+[PYI-27320:DEBUG] LOADER: archive file: C:\Users\joran\Documents\projects\controle lego met python\test\pyinstaller\pylgbst\dist\test_lgbst.exe
+[PYI-27320:DEBUG] LOADER: application has onefile semantics...
+[PYI-27320:DEBUG] LOADER: _PYI_ARCHIVE_FILE already defined: C:\Users\joran\Documents\projects\controle lego met python\test\pyinstaller\pylgbst\dist\test_lgbst.exe
+[PYI-27320:DEBUG] LOADER: using same archive file as parent environment!
+[PYI-27320:DEBUG] LOADER: process level = 1
+[PYI-27320:DEBUG] LOADER: this is child process of onefile application (main application process).
+[PYI-27320:DEBUG] LOADER: application's top-level directory: C:\Users\joran\AppData\Local\Temp\_MEI121162
+[PYI-27320:DEBUG] LOADER: calling SetDllDirectory: C:\Users\joran\AppData\Local\Temp\_MEI121162
+[PYI-27320:DEBUG] LOADER: splash screen is unavailable.
+[PYI-27320:DEBUG] LOADER: loading Python shared library: C:\Users\joran\AppData\Local\Temp\_MEI121162\python313.dll
+[PYI-27320:DEBUG] LOADER: loaded functions from Python shared library.
+[PYI-27320:DEBUG] LOADER: pre-initializing embedded python interpreter...
+[PYI-27320:DEBUG] LOADER: creating PyConfig structure...
+[PYI-27320:DEBUG] LOADER: initializing interpreter configuration...
+[PYI-27320:DEBUG] LOADER: setting program name...
+[PYI-27320:DEBUG] LOADER: setting python home path...
+[PYI-27320:DEBUG] LOADER: setting module search paths...
+[PYI-27320:DEBUG] LOADER: setting sys.argv...
+[PYI-27320:DEBUG] LOADER: applying run-time options...
+[PYI-27320:DEBUG] LOADER: starting embedded python interpreter...
+import _frozen_importlib # frozen
+import _imp # builtin
+import '_thread' # <class '_frozen_importlib.BuiltinImporter'>
+import '_warnings' # <class '_frozen_importlib.BuiltinImporter'>
+import '_weakref' # <class '_frozen_importlib.BuiltinImporter'>
+import 'winreg' # <class '_frozen_importlib.BuiltinImporter'>
+import '_io' # <class '_frozen_importlib.BuiltinImporter'>
+import 'marshal' # <class '_frozen_importlib.BuiltinImporter'>
+import 'nt' # <class '_frozen_importlib.BuiltinImporter'>
+import '_frozen_importlib_external' # <class '_frozen_importlib.FrozenImporter'>
+# installing zipimport hook
+import 'time' # <class '_frozen_importlib.BuiltinImporter'>
+import 'zipimport' # <class '_frozen_importlib.FrozenImporter'>
+# installed zipimport hook
+# zipimport: found 155 names in 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\base_library.zip'
+import '_codecs' # <class '_frozen_importlib.BuiltinImporter'>
+import 'codecs' # <class '_frozen_importlib.FrozenImporter'>
+import 'encodings.aliases' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\encodings\">
+import 'encodings' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+import 'encodings.utf_8' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\encodings\">
+import 'encodings.cp1252' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\encodings\">
+import '_signal' # <class '_frozen_importlib.BuiltinImporter'>
+import '_abc' # <class '_frozen_importlib.BuiltinImporter'>
+import 'abc' # <class '_frozen_importlib.FrozenImporter'>
+import 'io' # <class '_frozen_importlib.FrozenImporter'>
+[PYI-27320:DEBUG] LOADER: setting sys._MEIPASS
+[PYI-27320:DEBUG] LOADER: importing modules from PKG/CArchive
+[PYI-27320:DEBUG] LOADER: extracted struct
+[PYI-27320:DEBUG] LOADER: running unmarshalled code object for module struct...
+import '_struct' # <class '_frozen_importlib.BuiltinImporter'>
+[PYI-27320:DEBUG] LOADER: extracted pyimod01_archive
+[PYI-27320:DEBUG] LOADER: running unmarshalled code object for module pyimod01_archive...
+import '_stat' # <class '_frozen_importlib.BuiltinImporter'>
+import 'stat' # <class '_frozen_importlib.FrozenImporter'>
+import '_collections_abc' # <class '_frozen_importlib.FrozenImporter'>
+import 'genericpath' # <class '_frozen_importlib.FrozenImporter'>
+import '_winapi' # <class '_frozen_importlib.BuiltinImporter'>
+import 'ntpath' # <class '_frozen_importlib.FrozenImporter'>
+import 'os' # <class '_frozen_importlib.FrozenImporter'>
+import 'zlib' # <class '_frozen_importlib.BuiltinImporter'>
+[PYI-27320:DEBUG] LOADER: extracted pyimod02_importers
+[PYI-27320:DEBUG] LOADER: running unmarshalled code object for module pyimod02_importers...
+[PYI-27320:DEBUG] LOADER: extracted pyimod03_ctypes
+[PYI-27320:DEBUG] LOADER: running unmarshalled code object for module pyimod03_ctypes...
+[PYI-27320:DEBUG] LOADER: extracted pyimod04_pywin32
+[PYI-27320:DEBUG] LOADER: running unmarshalled code object for module pyimod04_pywin32...
+[PYI-27320:DEBUG] LOADER: looking for PYZ archive TOC entry...
+[PYI-27320:DEBUG] LOADER: path to PYZ archive stored into sys._pyinstaller_pyz...
+[PYI-27320:DEBUG] LOADER: running pyiboot01_bootstrap.py
+PyInstaller: inserting our finder hook at index 1 in sys.path_hooks.
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\lib-dynload'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='ctypes', target='ctypes'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'ctypes' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='ctypes', target='ctypes'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'ctypes' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='ctypes', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391D76BA0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ctypes\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ctypes']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ctypes\\__init__.pyc'
+import 'types' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='_ctypes', target='_ctypes'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: '_ctypes' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='_ctypes', target='_ctypes'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: '_ctypes' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='_ctypes', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x0000029391D77380>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_ctypes.pyd').
+# extension module '_ctypes' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_ctypes.pyd'
+# extension module '_ctypes' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_ctypes.pyd'
+import '_ctypes' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000029391D77380>
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ctypes'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\ctypes): find_spec: called with fullname='ctypes._endian', target='ctypes._endian'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\ctypes): find_spec: 'ctypes._endian' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\ctypes): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ctypes').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\ctypes): find_spec: fallback finder returned spec: ModuleSpec(name='ctypes._endian', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391ECDD10>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ctypes\\_endian.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ctypes\\_endian.pyc'
+import 'ctypes._endian' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391ECDD10>
+import 'ctypes' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391D76BA0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\ctypes): find_spec: called with fullname='ctypes.util', target='ctypes.util'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\ctypes): find_spec: 'ctypes.util' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\ctypes): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ctypes').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\ctypes): find_spec: fallback finder returned spec: ModuleSpec(name='ctypes.util', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391ECD950>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ctypes\\util.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ctypes\\util.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='shutil', target='shutil'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'shutil' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='shutil', target='shutil'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'shutil' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='shutil', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391DEB950>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\shutil.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\shutil.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='fnmatch', target='fnmatch'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'fnmatch' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='fnmatch', target='fnmatch'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'fnmatch' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='fnmatch', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391DEBBB0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\fnmatch.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\fnmatch.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='posix', target='posix'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'posix' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='posix', target='posix'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'posix' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: None.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='posix', target='posix'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'posix' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='posix', target='posix'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'posix' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: None.
+import 'posixpath' # <class '_frozen_importlib.FrozenImporter'>
+import 'enum' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+import '_sre' # <class '_frozen_importlib.BuiltinImporter'>
+import 're._constants' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\re\">
+import 're._parser' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\re\">
+import 're._casefix' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\re\">
+import 're._compiler' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\re\">
+import 'itertools' # <class '_frozen_importlib.BuiltinImporter'>
+import 'keyword' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+import '_operator' # <class '_frozen_importlib.BuiltinImporter'>
+import 'operator' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+import 'reprlib' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+import '_collections' # <class '_frozen_importlib.BuiltinImporter'>
+import 'collections' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+import '_functools' # <class '_frozen_importlib.BuiltinImporter'>
+import 'functools' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+import 'copyreg' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+import 're' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+import 'fnmatch' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391DEBBB0>
+import 'errno' # <class '_frozen_importlib.BuiltinImporter'>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='bz2', target='bz2'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'bz2' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='bz2', target='bz2'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'bz2' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='bz2', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391EAD370>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bz2.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bz2.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='_compression', target='_compression'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: '_compression' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='_compression', target='_compression'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: '_compression' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='_compression', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391EA3570>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_compression.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_compression.pyc'
+import '_compression' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391EA3570>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='_bz2', target='_bz2'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: '_bz2' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='_bz2', target='_bz2'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: '_bz2' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='_bz2', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x0000029391ECFB10>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_bz2.pyd').
+# extension module '_bz2' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_bz2.pyd'
+# extension module '_bz2' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_bz2.pyd'
+import '_bz2' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000029391ECFB10>
+import 'bz2' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391EAD370>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='lzma', target='lzma'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'lzma' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='lzma', target='lzma'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'lzma' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='lzma', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391EA3680>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\lzma.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\lzma.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='_lzma', target='_lzma'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: '_lzma' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='_lzma', target='_lzma'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: '_lzma' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='_lzma', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x00000293923FCE10>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_lzma.pyd').
+# extension module '_lzma' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_lzma.pyd'
+# extension module '_lzma' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_lzma.pyd'
+import '_lzma' # <_frozen_importlib_external.ExtensionFileLoader object at 0x00000293923FCE10>
+import 'lzma' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391EA3680>
+import 'shutil' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391DEB950>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='subprocess', target='subprocess'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'subprocess' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='subprocess', target='subprocess'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'subprocess' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='subprocess', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392412B50>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\subprocess.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\subprocess.pyc'
+import '_locale' # <class '_frozen_importlib.BuiltinImporter'>
+import 'locale' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='signal', target='signal'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'signal' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='signal', target='signal'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'signal' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='signal', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392413B50>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\signal.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\signal.pyc'
+import 'signal' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392413B50>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='threading', target='threading'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'threading' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='threading', target='threading'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'threading' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='threading', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391E97D40>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\threading.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\threading.pyc'
+import 'warnings' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+import '_weakrefset' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+import 'threading' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391E97D40>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='contextlib', target='contextlib'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'contextlib' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='contextlib', target='contextlib'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'contextlib' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='contextlib', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293923F6D50>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\contextlib.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\contextlib.pyc'
+import 'contextlib' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293923F6D50>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='fcntl', target='fcntl'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'fcntl' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='fcntl', target='fcntl'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'fcntl' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: None.
+import 'msvcrt' # <class '_frozen_importlib.BuiltinImporter'>
+import 'subprocess' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392412B50>
+import 'ctypes.util' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391ECD950>
+[PYI-27320:DEBUG] LOADER: running pyi_rth_inspect.py
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='inspect', target='inspect'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'inspect' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='inspect', target='inspect'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'inspect' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='inspect', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391EC1390>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\inspect.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\inspect.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='ast', target='ast'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'ast' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='ast', target='ast'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'ast' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='ast', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391EC1550>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ast.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ast.pyc'
+import '_ast' # <class '_frozen_importlib.BuiltinImporter'>
+import 'ast' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391EC1550>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='dis', target='dis'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'dis' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='dis', target='dis'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'dis' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='dis', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392545B20>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\dis.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\dis.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='opcode', target='opcode'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'opcode' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='opcode', target='opcode'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'opcode' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='opcode', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x000002939243D910>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\opcode.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\opcode.pyc'
+import '_opcode' # <class '_frozen_importlib.BuiltinImporter'>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='_opcode_metadata', target='_opcode_metadata'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: '_opcode_metadata' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='_opcode_metadata', target='_opcode_metadata'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: '_opcode_metadata' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='_opcode_metadata', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x000002939243DCD0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_opcode_metadata.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_opcode_metadata.pyc'
+import '_opcode_metadata' # <_frozen_importlib_external.SourcelessFileLoader object at 0x000002939243DCD0>
+import 'opcode' # <_frozen_importlib_external.SourcelessFileLoader object at 0x000002939243D910>
+import 'dis' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392545B20>
+# destroy collections.abc
+import 'collections.abc' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\collections\">
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='importlib', target='importlib'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'importlib' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='importlib', target='importlib'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'importlib' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='importlib', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293923CB280>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\importlib\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\importlib']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\importlib\\__init__.pyc'
+import 'importlib' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293923CB280>
+import 'importlib.machinery' # <class '_frozen_importlib.FrozenImporter'>
+import 'linecache' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='tokenize', target='tokenize'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'tokenize' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='tokenize', target='tokenize'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'tokenize' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='tokenize', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392560520>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\tokenize.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\tokenize.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='token', target='token'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'token' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='token', target='token'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'token' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='token', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x000002939254B070>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\token.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\token.pyc'
+import 'token' # <_frozen_importlib_external.SourcelessFileLoader object at 0x000002939254B070>
+import '_tokenize' # <class '_frozen_importlib.BuiltinImporter'>
+import 'tokenize' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392560520>
+import 'weakref' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+import 'inspect' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029391EC1390>
+[PYI-27320:DEBUG] LOADER: running pyi_rth_pkgutil.py
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='pkgutil', target='pkgutil'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'pkgutil' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='pkgutil', target='pkgutil'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'pkgutil' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='pkgutil', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293925B23F0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pkgutil.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pkgutil.pyc'
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\importlib'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\importlib): find_spec: called with fullname='importlib._abc', target='importlib._abc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\importlib): find_spec: 'importlib._abc' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\importlib): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\importlib').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\importlib): find_spec: fallback finder returned spec: ModuleSpec(name='importlib._abc', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293924FE7B0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\importlib\\_abc.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\importlib\\_abc.pyc'
+import 'importlib._abc' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293924FE7B0>
+import 'importlib.util' # <class '_frozen_importlib.FrozenImporter'>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='typing', target='typing'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'typing' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='typing', target='typing'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'typing' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='typing', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x000002939257D850>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\typing.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\typing.pyc'
+import '_typing' # <class '_frozen_importlib.BuiltinImporter'>
+import 'typing' # <_frozen_importlib_external.SourcelessFileLoader object at 0x000002939257D850>
+import 'pkgutil' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293925B23F0>
+[PYI-27320:DEBUG] LOADER: running pyi_rth_multiprocessing.py
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='multiprocessing', target='multiprocessing'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'multiprocessing' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='multiprocessing', target='multiprocessing'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'multiprocessing' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='multiprocessing', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x000002939257D5D0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing\\__init__.pyc'
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: called with fullname='multiprocessing.context', target='multiprocessing.context'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: 'multiprocessing.context' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: fallback finder returned spec: ModuleSpec(name='multiprocessing.context', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293924D0C90>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing\\context.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing\\context.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: called with fullname='multiprocessing.process', target='multiprocessing.process'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: 'multiprocessing.process' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: fallback finder returned spec: ModuleSpec(name='multiprocessing.process', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392577000>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing\\process.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing\\process.pyc'
+import 'multiprocessing.process' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392577000>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: called with fullname='multiprocessing.reduction', target='multiprocessing.reduction'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: 'multiprocessing.reduction' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: fallback finder returned spec: ModuleSpec(name='multiprocessing.reduction', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293925C7950>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing\\reduction.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing\\reduction.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='pickle', target='pickle'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'pickle' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='pickle', target='pickle'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'pickle' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='pickle', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392618710>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pickle.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pickle.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='_compat_pickle', target='_compat_pickle'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: '_compat_pickle' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='_compat_pickle', target='_compat_pickle'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: '_compat_pickle' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='_compat_pickle', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392618E30>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_compat_pickle.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_compat_pickle.pyc'
+import '_compat_pickle' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392618E30>
+import '_pickle' # <class '_frozen_importlib.BuiltinImporter'>
+import 'pickle' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392618710>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='socket', target='socket'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'socket' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='socket', target='socket'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'socket' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='socket', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x000002939261A510>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\socket.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\socket.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='_socket', target='_socket'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: '_socket' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='_socket', target='_socket'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: '_socket' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='_socket', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x00000293925A1BA0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_socket.pyd').
+# extension module '_socket' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_socket.pyd'
+# extension module '_socket' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_socket.pyd'
+import '_socket' # <_frozen_importlib_external.ExtensionFileLoader object at 0x00000293925A1BA0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='selectors', target='selectors'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'selectors' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='selectors', target='selectors'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'selectors' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='selectors', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x000002939261AB70>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\selectors.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\selectors.pyc'
+import 'math' # <class '_frozen_importlib.BuiltinImporter'>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='select', target='select'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'select' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='select', target='select'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'select' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='select', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x00000293925A3230>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\select.pyd').
+# extension module 'select' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\select.pyd'
+# extension module 'select' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\select.pyd'
+import 'select' # <_frozen_importlib_external.ExtensionFileLoader object at 0x00000293925A3230>
+import 'selectors' # <_frozen_importlib_external.SourcelessFileLoader object at 0x000002939261AB70>
+import 'socket' # <_frozen_importlib_external.SourcelessFileLoader object at 0x000002939261A510>
+import 'multiprocessing.reduction' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293925C7950>
+import 'multiprocessing.context' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293924D0C90>
+import 'multiprocessing' # <_frozen_importlib_external.SourcelessFileLoader object at 0x000002939257D5D0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: called with fullname='multiprocessing.spawn', target='multiprocessing.spawn'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: 'multiprocessing.spawn' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: fallback finder returned spec: ModuleSpec(name='multiprocessing.spawn', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293925C7290>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing\\spawn.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing\\spawn.pyc'
+import 'runpy' # <class '_frozen_importlib.FrozenImporter'>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: called with fullname='multiprocessing.util', target='multiprocessing.util'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: 'multiprocessing.util' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\multiprocessing): find_spec: fallback finder returned spec: ModuleSpec(name='multiprocessing.util', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x000002939261B590>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing\\util.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\multiprocessing\\util.pyc'
+import 'atexit' # <class '_frozen_importlib.BuiltinImporter'>
+import 'multiprocessing.util' # <_frozen_importlib_external.SourcelessFileLoader object at 0x000002939261B590>
+import 'multiprocessing.spawn' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293925C7290>
+[PYI-27320:DEBUG] LOADER: running test_lgbst.py
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='logging', target='logging'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'logging' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='logging', target='logging'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'logging' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='logging', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392618410>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\logging\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\logging']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\logging\\__init__.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='textwrap', target='textwrap'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'textwrap' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='textwrap', target='textwrap'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'textwrap' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='textwrap', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392694E30>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\textwrap.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\textwrap.pyc'
+import 'textwrap' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392694E30>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='_colorize', target='_colorize'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: '_colorize' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='_colorize', target='_colorize'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: '_colorize' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='_colorize', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392697BF0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_colorize.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_colorize.pyc'
+import '_colorize' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392697BF0>
+import 'traceback' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='string', target='string'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'string' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='string', target='string'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'string' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='string', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392697DD0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\string.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\string.pyc'
+import '_string' # <class '_frozen_importlib.BuiltinImporter'>
+import 'string' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392697DD0>
+import 'logging' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392618410>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='pylgbst', target='pylgbst'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'pylgbst' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='pylgbst', target='pylgbst'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'pylgbst' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='pylgbst', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392695490>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\__init__.pyc'
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: called with fullname='pylgbst.comms', target='pylgbst.comms'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: 'pylgbst.comms' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: fallback finder returned spec: ModuleSpec(name='pylgbst.comms', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392694110>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\comms\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\comms']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\comms\\__init__.pyc'
+import 'binascii' # <class '_frozen_importlib.BuiltinImporter'>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='json', target='json'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'json' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='json', target='json'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'json' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='json', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E48F0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\json\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\json']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\json\\__init__.pyc'
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\json'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\json): find_spec: called with fullname='json.decoder', target='json.decoder'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\json): find_spec: 'json.decoder' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\json): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\json').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\json): find_spec: fallback finder returned spec: ModuleSpec(name='json.decoder', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E4BF0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\json\\decoder.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\json\\decoder.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\json): find_spec: called with fullname='json.scanner', target='json.scanner'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\json): find_spec: 'json.scanner' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\json): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\json').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\json): find_spec: fallback finder returned spec: ModuleSpec(name='json.scanner', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E5190>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\json\\scanner.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\json\\scanner.pyc'
+import '_json' # <class '_frozen_importlib.BuiltinImporter'>
+import 'json.scanner' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E5190>
+import 'json.decoder' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E4BF0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\json): find_spec: called with fullname='json.encoder', target='json.encoder'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\json): find_spec: 'json.encoder' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\json): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\json').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\json): find_spec: fallback finder returned spec: ModuleSpec(name='json.encoder', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E50D0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\json\\encoder.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\json\\encoder.pyc'
+import 'json.encoder' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E50D0>
+import 'json' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E48F0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: called with fullname='pylgbst.messages', target='pylgbst.messages'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: 'pylgbst.messages' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: fallback finder returned spec: ModuleSpec(name='pylgbst.messages', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E5610>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\messages.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\messages.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: called with fullname='pylgbst.utilities', target='pylgbst.utilities'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: 'pylgbst.utilities' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: fallback finder returned spec: ModuleSpec(name='pylgbst.utilities', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E59D0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\utilities.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\utilities.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='queue', target='queue'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'queue' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='queue', target='queue'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'queue' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='queue', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E5DF0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\queue.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\queue.pyc'
+import '_heapq' # <class '_frozen_importlib.BuiltinImporter'>
+import 'heapq' # <zipimporter object "C:\Users\joran\AppData\Local\Temp\_MEI121162\base_library.zip\">
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='_queue', target='_queue'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: '_queue' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='_queue', target='_queue'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: '_queue' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='_queue', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x000002939268A570>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_queue.pyd').
+# extension module '_queue' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_queue.pyd'
+# extension module '_queue' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_queue.pyd'
+import '_queue' # <_frozen_importlib_external.ExtensionFileLoader object at 0x000002939268A570>
+import 'queue' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E5DF0>
+import 'pylgbst.utilities' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E59D0>
+import 'pylgbst.messages' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E5610>
+import 'pylgbst.comms' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392694110>
+import 'pylgbst' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392695490>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: called with fullname='pylgbst.hub', target='pylgbst.hub'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: 'pylgbst.hub' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: fallback finder returned spec: ModuleSpec(name='pylgbst.hub', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392694470>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\hub.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\hub.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: called with fullname='pylgbst.peripherals', target='pylgbst.peripherals'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: 'pylgbst.peripherals' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst): find_spec: fallback finder returned spec: ModuleSpec(name='pylgbst.peripherals', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E75F0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\peripherals.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\peripherals.pyc'
+import 'pylgbst.peripherals' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E75F0>
+import 'pylgbst.hub' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392694470>
+
+
+
+
+
+
+
+
+
+
+
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\comms'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst\comms): find_spec: called with fullname='pylgbst.comms.cbleak', target='pylgbst.comms.cbleak'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst\comms): find_spec: 'pylgbst.comms.cbleak' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst\comms): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\comms').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pylgbst\comms): find_spec: fallback finder returned spec: ModuleSpec(name='pylgbst.comms.cbleak', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E7470>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\comms\\cbleak.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pylgbst\\comms\\cbleak.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='asyncio', target='asyncio'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'asyncio' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='asyncio', target='asyncio'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'asyncio' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392738CB0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\__init__.pyc'
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.base_events', target='asyncio.base_events'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.base_events' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.base_events', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392738D70>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\base_events.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\base_events.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='concurrent', target='concurrent'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'concurrent' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='concurrent', target='concurrent'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'concurrent' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='concurrent', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x000002939273A570>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\concurrent\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\concurrent']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\concurrent\\__init__.pyc'
+import 'concurrent' # <_frozen_importlib_external.SourcelessFileLoader object at 0x000002939273A570>
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\concurrent'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\concurrent): find_spec: called with fullname='concurrent.futures', target='concurrent.futures'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\concurrent): find_spec: 'concurrent.futures' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\concurrent): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\concurrent').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\concurrent): find_spec: fallback finder returned spec: ModuleSpec(name='concurrent.futures', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x000002939273AF30>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\concurrent\\futures\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\concurrent\\futures']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\concurrent\\futures\\__init__.pyc'
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\concurrent\\futures'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\concurrent\futures): find_spec: called with fullname='concurrent.futures._base', target='concurrent.futures._base'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\concurrent\futures): find_spec: 'concurrent.futures._base' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\concurrent\futures): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\concurrent\\futures').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\concurrent\futures): find_spec: fallback finder returned spec: ModuleSpec(name='concurrent.futures._base', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x000002939273AF90>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\concurrent\\futures\\_base.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\concurrent\\futures\\_base.pyc'
+import 'concurrent.futures._base' # <_frozen_importlib_external.SourcelessFileLoader object at 0x000002939273AF90>
+import 'concurrent.futures' # <_frozen_importlib_external.SourcelessFileLoader object at 0x000002939273AF30>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='ssl', target='ssl'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'ssl' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='ssl', target='ssl'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'ssl' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='ssl', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392739730>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ssl.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ssl.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='_ssl', target='_ssl'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: '_ssl' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='_ssl', target='_ssl'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: '_ssl' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='_ssl', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x000002939274A8B0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_ssl.pyd').
+# extension module '_ssl' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_ssl.pyd'
+# extension module '_ssl' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_ssl.pyd'
+import '_ssl' # <_frozen_importlib_external.ExtensionFileLoader object at 0x000002939274A8B0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='base64', target='base64'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'base64' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='base64', target='base64'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'base64' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='base64', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293927922D0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\base64.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\base64.pyc'
+import 'base64' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293927922D0>
+import 'ssl' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392739730>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.constants', target='asyncio.constants'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.constants' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.constants', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392792AB0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\constants.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\constants.pyc'
+import 'asyncio.constants' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392792AB0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.coroutines', target='asyncio.coroutines'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.coroutines' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.coroutines', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392790050>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\coroutines.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\coroutines.pyc'
+import 'asyncio.coroutines' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392790050>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.events', target='asyncio.events'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.events' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.events', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392792CF0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\events.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\events.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='contextvars', target='contextvars'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'contextvars' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='contextvars', target='contextvars'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'contextvars' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='contextvars', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392793A10>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\contextvars.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\contextvars.pyc'
+import '_contextvars' # <class '_frozen_importlib.BuiltinImporter'>
+import 'contextvars' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392793A10>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.format_helpers', target='asyncio.format_helpers'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.format_helpers' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.format_helpers', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392793F50>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\format_helpers.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\format_helpers.pyc'
+import 'asyncio.format_helpers' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392793F50>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='_asyncio', target='_asyncio'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: '_asyncio' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='_asyncio', target='_asyncio'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: '_asyncio' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='_asyncio', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x000002939274A360>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_asyncio.pyd').
+# extension module '_asyncio' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_asyncio.pyd'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.base_futures', target='asyncio.base_futures'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.base_futures' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.base_futures', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C203B0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\base_futures.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\base_futures.pyc'
+import 'asyncio.base_futures' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C203B0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.exceptions', target='asyncio.exceptions'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.exceptions' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.exceptions', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C20470>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\exceptions.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\exceptions.pyc'
+import 'asyncio.exceptions' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C20470>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.base_tasks', target='asyncio.base_tasks'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.base_tasks' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.base_tasks', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C206B0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\base_tasks.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\base_tasks.pyc'
+import 'asyncio.base_tasks' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C206B0>
+# extension module '_asyncio' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_asyncio.pyd'
+import '_asyncio' # <_frozen_importlib_external.ExtensionFileLoader object at 0x000002939274A360>
+import 'asyncio.events' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392792CF0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.futures', target='asyncio.futures'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.futures' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.futures', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392793DD0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\futures.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\futures.pyc'
+import 'asyncio.futures' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392793DD0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.protocols', target='asyncio.protocols'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.protocols' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.protocols', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C20290>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\protocols.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\protocols.pyc'
+import 'asyncio.protocols' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C20290>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.sslproto', target='asyncio.sslproto'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.sslproto' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.sslproto', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C20C50>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\sslproto.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\sslproto.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.transports', target='asyncio.transports'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.transports' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.transports', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C20DD0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\transports.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\transports.pyc'
+import 'asyncio.transports' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C20DD0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.log', target='asyncio.log'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.log' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.log', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C21D90>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\log.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\log.pyc'
+import 'asyncio.log' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C21D90>
+import 'asyncio.sslproto' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C20C50>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.staggered', target='asyncio.staggered'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.staggered' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.staggered', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C21A90>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\staggered.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\staggered.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.locks', target='asyncio.locks'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.locks' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.locks', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C21BB0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\locks.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\locks.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.mixins', target='asyncio.mixins'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.mixins' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.mixins', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C22450>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\mixins.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\mixins.pyc'
+import 'asyncio.mixins' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C22450>
+import 'asyncio.locks' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C21BB0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.tasks', target='asyncio.tasks'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.tasks' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.tasks', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C21EB0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\tasks.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\tasks.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.queues', target='asyncio.queues'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.queues' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.queues', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C230B0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\queues.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\queues.pyc'
+import 'asyncio.queues' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C230B0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.timeouts', target='asyncio.timeouts'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.timeouts' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.timeouts', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C23290>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\timeouts.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\timeouts.pyc'
+import 'asyncio.timeouts' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C23290>
+import 'asyncio.tasks' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C21EB0>
+import 'asyncio.staggered' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C21A90>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.trsock', target='asyncio.trsock'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.trsock' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.trsock', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C22990>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\trsock.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\trsock.pyc'
+import 'asyncio.trsock' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C22990>
+import 'asyncio.base_events' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392738D70>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.runners', target='asyncio.runners'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.runners' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.runners', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x00000293927396D0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\runners.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\runners.pyc'
+import 'asyncio.runners' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293927396D0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.streams', target='asyncio.streams'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.streams' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.streams', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C21310>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\streams.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\streams.pyc'
+import 'asyncio.streams' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C21310>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.subprocess', target='asyncio.subprocess'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.subprocess' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.subprocess', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C23890>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\subprocess.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\subprocess.pyc'
+import 'asyncio.subprocess' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C23890>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.taskgroups', target='asyncio.taskgroups'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.taskgroups' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.taskgroups', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C90170>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\taskgroups.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\taskgroups.pyc'
+import 'asyncio.taskgroups' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C90170>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.threads', target='asyncio.threads'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.threads' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.threads', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C90BF0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\threads.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\threads.pyc'
+import 'asyncio.threads' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C90BF0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.windows_events', target='asyncio.windows_events'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.windows_events' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.windows_events', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C90D70>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\windows_events.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\windows_events.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='_overlapped', target='_overlapped'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: '_overlapped' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='_overlapped', target='_overlapped'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: '_overlapped' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='_overlapped', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392C3EB50>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_overlapped.pyd').
+# extension module '_overlapped' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_overlapped.pyd'
+# extension module '_overlapped' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_overlapped.pyd'
+import '_overlapped' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392C3EB50>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.base_subprocess', target='asyncio.base_subprocess'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.base_subprocess' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.base_subprocess', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C91250>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\base_subprocess.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\base_subprocess.pyc'
+import 'asyncio.base_subprocess' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C91250>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.proactor_events', target='asyncio.proactor_events'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.proactor_events' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.proactor_events', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C91610>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\proactor_events.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\proactor_events.pyc'
+import 'asyncio.proactor_events' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C91610>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.selector_events', target='asyncio.selector_events'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.selector_events' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.selector_events', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C930B0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\selector_events.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\selector_events.pyc'
+import 'asyncio.selector_events' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C930B0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: called with fullname='asyncio.windows_utils', target='asyncio.windows_utils'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: 'asyncio.windows_utils' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\asyncio): find_spec: fallback finder returned spec: ModuleSpec(name='asyncio.windows_utils', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392CE1A90>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\windows_utils.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\asyncio\\windows_utils.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='tempfile', target='tempfile'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'tempfile' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='tempfile', target='tempfile'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'tempfile' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='tempfile', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392CE1D90>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\tempfile.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\tempfile.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='random', target='random'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'random' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='random', target='random'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'random' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='random', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392CE2150>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\random.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\random.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='bisect', target='bisect'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'bisect' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='bisect', target='bisect'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'bisect' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='bisect', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392CE2870>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bisect.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bisect.pyc'
+import '_bisect' # <class '_frozen_importlib.BuiltinImporter'>
+import 'bisect' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392CE2870>
+import '_random' # <class '_frozen_importlib.BuiltinImporter'>
+import 'random' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392CE2150>
+import 'tempfile' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392CE1D90>
+import 'asyncio.windows_utils' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392CE1A90>
+import 'asyncio.windows_events' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392C90D70>
+import 'asyncio' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392738CB0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='platform', target='platform'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'platform' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='platform', target='platform'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'platform' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='platform', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392738D10>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\platform.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\platform.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='_wmi', target='_wmi'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: '_wmi' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='_wmi', target='_wmi'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: '_wmi' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='_wmi', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392CCCC50>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_wmi.pyd').
+# extension module '_wmi' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_wmi.pyd'
+# extension module '_wmi' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_wmi.pyd'
+import '_wmi' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392CCCC50>
+import 'platform' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392738D10>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='bleak', target='bleak'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'bleak' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='bleak', target='bleak'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'bleak' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='bleak', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392CE3D10>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\__init__.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='__future__', target='__future__'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: '__future__' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='__future__', target='__future__'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: '__future__' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='__future__', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D34830>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\__future__.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\__future__.pyc'
+import '__future__' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D34830>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='uuid', target='uuid'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'uuid' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='uuid', target='uuid'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'uuid' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='uuid', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D34950>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\uuid.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\uuid.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='_uuid', target='_uuid'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: '_uuid' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='_uuid', target='_uuid'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: '_uuid' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='_uuid', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392D298B0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_uuid.pyd').
+# extension module '_uuid' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_uuid.pyd'
+# extension module '_uuid' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\_uuid.pyd'
+import '_uuid' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392D298B0>
+import 'uuid' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D34950>
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: called with fullname='bleak.backends', target='bleak.backends'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: 'bleak.backends' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.backends', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D35250>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\__init__.pyc'
+import 'bleak.backends' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D35250>
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: called with fullname='bleak.backends.characteristic', target='bleak.backends.characteristic'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: 'bleak.backends.characteristic' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.backends.characteristic', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D34DD0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\characteristic.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\characteristic.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: called with fullname='bleak.uuids', target='bleak.uuids'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: 'bleak.uuids' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.uuids', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D35730>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\uuids.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\uuids.pyc'
+import 'bleak.uuids' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D35730>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: called with fullname='bleak.backends.descriptor', target='bleak.backends.descriptor'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: 'bleak.backends.descriptor' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.backends.descriptor', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D36990>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\descriptor.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\descriptor.pyc'
+import 'bleak.backends.descriptor' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D36990>
+import 'bleak.backends.characteristic' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D34DD0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: called with fullname='bleak.backends.client', target='bleak.backends.client'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: 'bleak.backends.client' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.backends.client', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D356D0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\client.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\client.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: called with fullname='bleak.exc', target='bleak.exc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: 'bleak.exc' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.exc', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D370B0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\exc.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\exc.pyc'
+import 'bleak.exc' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D370B0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: called with fullname='bleak.backends.device', target='bleak.backends.device'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: 'bleak.backends.device' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.backends.device', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D37770>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\device.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\device.pyc'
+import 'bleak.backends.device' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D37770>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: called with fullname='bleak.backends.service', target='bleak.backends.service'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: 'bleak.backends.service' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.backends.service', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D37830>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\service.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\service.pyc'
+import 'bleak.backends.service' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D37830>
+import 'bleak.backends.client' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D356D0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: called with fullname='bleak.backends.scanner', target='bleak.backends.scanner'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: 'bleak.backends.scanner' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.backends.scanner', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D37EF0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\scanner.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\scanner.pyc'
+import 'bleak.backends.scanner' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D37EF0>
+import 'bleak' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392CE3D10>
+import 'pylgbst.comms.cbleak' # <_frozen_importlib_external.SourcelessFileLoader object at 0x00000293926E7470>
+pylgbst\comms\cbleak.py:150: FutureWarning: The discover function will removed in a future version, use BleakScanner.discover instead.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: called with fullname='bleak.backends.winrt', target='bleak.backends.winrt'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: 'bleak.backends.winrt' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.backends.winrt', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D903B0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt\\__init__.pyc'
+import 'bleak.backends.winrt' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D903B0>
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: called with fullname='bleak.backends.winrt.scanner', target='bleak.backends.winrt.scanner'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: 'bleak.backends.winrt.scanner' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.backends.winrt.scanner', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392738B90>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt\\scanner.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt\\scanner.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: called with fullname='bleak.backends.winrt.util', target='bleak.backends.winrt.util'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: 'bleak.backends.winrt.util' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.backends.winrt.util', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D906B0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt\\util.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt\\util.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\ctypes): find_spec: called with fullname='ctypes.wintypes', target='ctypes.wintypes'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\ctypes): find_spec: 'ctypes.wintypes' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\ctypes): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ctypes').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\ctypes): find_spec: fallback finder returned spec: ModuleSpec(name='ctypes.wintypes', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D90B30>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ctypes\\wintypes.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\ctypes\\wintypes.pyc'
+import 'ctypes.wintypes' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D90B30>
+import 'bleak.backends.winrt.util' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D906B0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='winrt', target='winrt'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'winrt' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='winrt', target='winrt'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'winrt' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+# possible namespace for C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='winrt', loader=None, submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt']).
+import 'winrt' # <_frozen_importlib_external.NamespaceLoader object at 0x0000029392D42120>
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: called with fullname='winrt.windows', target='winrt.windows'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: 'winrt.windows' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt').
+# possible namespace for C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='winrt.windows', loader=None, submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows']).
+import 'winrt.windows' # <_frozen_importlib_external.NamespaceLoader object at 0x0000029392DA0410>
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows): find_spec: called with fullname='winrt.windows.devices', target='winrt.windows.devices'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows): find_spec: 'winrt.windows.devices' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows').
+# possible namespace for C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows): find_spec: fallback finder returned spec: ModuleSpec(name='winrt.windows.devices', loader=None, submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices']).
+import 'winrt.windows.devices' # <_frozen_importlib_external.NamespaceLoader object at 0x0000029392DA0690>
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices): find_spec: called with fullname='winrt.windows.devices.bluetooth', target='winrt.windows.devices.bluetooth'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices): find_spec: 'winrt.windows.devices.bluetooth' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices): find_spec: fallback finder returned spec: ModuleSpec(name='winrt.windows.devices.bluetooth', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D90F50>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices\\bluetooth\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices\\bluetooth']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices\\bluetooth\\__init__.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: called with fullname='winrt.system', target='winrt.system'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: 'winrt.system' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='winrt.system', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D924B0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\system\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\system']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\system\\__init__.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='pathlib', target='pathlib'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'pathlib' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='pathlib', target='pathlib'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'pathlib' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='pathlib', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D928D0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pathlib\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pathlib']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pathlib\\__init__.pyc'
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pathlib'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pathlib): find_spec: called with fullname='pathlib._abc', target='pathlib._abc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pathlib): find_spec: 'pathlib._abc' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pathlib): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pathlib').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pathlib): find_spec: fallback finder returned spec: ModuleSpec(name='pathlib._abc', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D92990>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pathlib\\_abc.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pathlib\\_abc.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='glob', target='glob'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'glob' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='glob', target='glob'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'glob' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: ModuleSpec(name='glob', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D92B10>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\glob.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\glob.pyc'
+import 'glob' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D92B10>
+import 'pathlib._abc' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D92990>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pathlib): find_spec: called with fullname='pathlib._local', target='pathlib._local'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pathlib): find_spec: 'pathlib._local' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pathlib): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pathlib').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\pathlib): find_spec: fallback finder returned spec: ModuleSpec(name='pathlib._local', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D93BF0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pathlib\\_local.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\pathlib\\_local.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='pwd', target='pwd'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'pwd' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='pwd', target='pwd'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'pwd' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: None.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: called with fullname='grp', target='grp'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: 'grp' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\lib-dynload): find_spec: fallback finder is not available.
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: called with fullname='grp', target='grp'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: 'grp' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162): find_spec: fallback finder returned spec: None.
+import 'pathlib._local' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D93BF0>
+import 'pathlib' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D928D0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: called with fullname='winrt._winrt', target='winrt._winrt'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: 'winrt._winrt' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='winrt._winrt', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392D9E8A0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt.cp313-win_amd64.pyd').
+# extension module 'winrt._winrt' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt.cp313-win_amd64.pyd'
+# extension module 'winrt._winrt' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt.cp313-win_amd64.pyd'
+import 'winrt._winrt' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392D9E8A0>
+import 'winrt.system' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D924B0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: called with fullname='winrt._winrt_windows_devices_bluetooth', target='winrt._winrt_windows_devices_bluetooth'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: 'winrt._winrt_windows_devices_bluetooth' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='winrt._winrt_windows_devices_bluetooth', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392DA9710>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_devices_bluetooth.cp313-win_amd64.pyd').
+# extension module 'winrt._winrt_windows_devices_bluetooth' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_devices_bluetooth.cp313-win_amd64.pyd'
+# extension module 'winrt._winrt_windows_devices_bluetooth' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_devices_bluetooth.cp313-win_amd64.pyd'
+import 'winrt._winrt_windows_devices_bluetooth' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392DA9710>
+import 'winrt.windows.devices.bluetooth' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D90F50>
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices\\bluetooth'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices\bluetooth): find_spec: called with fullname='winrt.windows.devices.bluetooth.advertisement', target='winrt.windows.devices.bluetooth.advertisement'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices\bluetooth): find_spec: 'winrt.windows.devices.bluetooth.advertisement' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices\bluetooth): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices\\bluetooth').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices\bluetooth): find_spec: fallback finder returned spec: ModuleSpec(name='winrt.windows.devices.bluetooth.advertisement', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D92510>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices\\bluetooth\\advertisement\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices\\bluetooth\\advertisement']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices\\bluetooth\\advertisement\\__init__.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: called with fullname='winrt._winrt_windows_devices_bluetooth_advertisement', target='winrt._winrt_windows_devices_bluetooth_advertisement'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: 'winrt._winrt_windows_devices_bluetooth_advertisement' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='winrt._winrt_windows_devices_bluetooth_advertisement', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392DA9C50>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_devices_bluetooth_advertisement.cp313-win_amd64.pyd').
+# extension module 'winrt._winrt_windows_devices_bluetooth_advertisement' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_devices_bluetooth_advertisement.cp313-win_amd64.pyd'
+# extension module 'winrt._winrt_windows_devices_bluetooth_advertisement' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_devices_bluetooth_advertisement.cp313-win_amd64.pyd'
+import 'winrt._winrt_windows_devices_bluetooth_advertisement' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392DA9C50>
+import 'winrt.windows.devices.bluetooth.advertisement' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392D92510>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: called with fullname='bleak.assigned_numbers', target='bleak.assigned_numbers'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: 'bleak.assigned_numbers' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.assigned_numbers', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392E86930>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\assigned_numbers.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\assigned_numbers.pyc'
+import 'bleak.assigned_numbers' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392E86930>
+import 'bleak.backends.winrt.scanner' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392738B90>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows): find_spec: called with fullname='winrt.windows.foundation', target='winrt.windows.foundation'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows): find_spec: 'winrt.windows.foundation' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows): find_spec: fallback finder returned spec: ModuleSpec(name='winrt.windows.foundation', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392E86A50>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\foundation\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\foundation']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\foundation\\__init__.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: called with fullname='winrt._winrt_windows_foundation', target='winrt._winrt_windows_foundation'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: 'winrt._winrt_windows_foundation' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='winrt._winrt_windows_foundation', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392CAFAD0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_foundation.cp313-win_amd64.pyd').
+# extension module 'winrt._winrt_windows_foundation' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_foundation.cp313-win_amd64.pyd'
+# extension module 'winrt._winrt_windows_foundation' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_foundation.cp313-win_amd64.pyd'
+import 'winrt._winrt_windows_foundation' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392CAFAD0>
+import 'winrt.windows.foundation' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392E86A50>
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\foundation'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\foundation): find_spec: called with fullname='winrt.windows.foundation.collections', target='winrt.windows.foundation.collections'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\foundation): find_spec: 'winrt.windows.foundation.collections' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\foundation): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\foundation').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\foundation): find_spec: fallback finder returned spec: ModuleSpec(name='winrt.windows.foundation.collections', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392E86BD0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\foundation\\collections\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\foundation\\collections']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\foundation\\collections\\__init__.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: called with fullname='winrt._winrt_windows_foundation_collections', target='winrt._winrt_windows_foundation_collections'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: 'winrt._winrt_windows_foundation_collections' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='winrt._winrt_windows_foundation_collections', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392CB1FD0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_foundation_collections.cp313-win_amd64.pyd').
+# extension module 'winrt._winrt_windows_foundation_collections' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_foundation_collections.cp313-win_amd64.pyd'
+# extension module 'winrt._winrt_windows_foundation_collections' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_foundation_collections.cp313-win_amd64.pyd'
+import 'winrt._winrt_windows_foundation_collections' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392CB1FD0>
+import 'winrt.windows.foundation.collections' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392E86BD0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows): find_spec: called with fullname='winrt.windows.storage', target='winrt.windows.storage'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows): find_spec: 'winrt.windows.storage' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows').
+# possible namespace for C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\storage
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows): find_spec: fallback finder returned spec: ModuleSpec(name='winrt.windows.storage', loader=None, submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\storage']).
+import 'winrt.windows.storage' # <_frozen_importlib_external.NamespaceLoader object at 0x0000029392E716E0>
+PyInstaller: running path finder hook for path: 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\storage'
+PyInstaller: hook succeeded
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\storage): find_spec: called with fullname='winrt.windows.storage.streams', target='winrt.windows.storage.streams'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\storage): find_spec: 'winrt.windows.storage.streams' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\storage): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\storage').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\storage): find_spec: fallback finder returned spec: ModuleSpec(name='winrt.windows.storage.streams', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392E86C90>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\storage\\streams\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\storage\\streams']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\storage\\streams\\__init__.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: called with fullname='winrt._winrt_windows_storage_streams', target='winrt._winrt_windows_storage_streams'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: 'winrt._winrt_windows_storage_streams' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='winrt._winrt_windows_storage_streams', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392CB3410>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_storage_streams.cp313-win_amd64.pyd').
+# extension module 'winrt._winrt_windows_storage_streams' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_storage_streams.cp313-win_amd64.pyd'
+# extension module 'winrt._winrt_windows_storage_streams' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_storage_streams.cp313-win_amd64.pyd'
+import 'winrt._winrt_windows_storage_streams' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392CB3410>
+import 'winrt.windows.storage.streams' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392E86C90>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: called with fullname='bleak.backends.winrt.client', target='bleak.backends.winrt.client'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: 'bleak.backends.winrt.client' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.backends.winrt.client', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392E87470>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt\\client.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt\\client.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices\bluetooth): find_spec: called with fullname='winrt.windows.devices.bluetooth.genericattributeprofile', target='winrt.windows.devices.bluetooth.genericattributeprofile'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices\bluetooth): find_spec: 'winrt.windows.devices.bluetooth.genericattributeprofile' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices\bluetooth): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices\\bluetooth').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices\bluetooth): find_spec: fallback finder returned spec: ModuleSpec(name='winrt.windows.devices.bluetooth.genericattributeprofile', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392E87EF0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices\\bluetooth\\genericattributeprofile\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices\\bluetooth\\genericattributeprofile']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices\\bluetooth\\genericattributeprofile\\__init__.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: called with fullname='winrt._winrt_windows_devices_bluetooth_genericattributeprofile', target='winrt._winrt_windows_devices_bluetooth_genericattributeprofile'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: 'winrt._winrt_windows_devices_bluetooth_genericattributeprofile' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='winrt._winrt_windows_devices_bluetooth_genericattributeprofile', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392CEF1D0>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_devices_bluetooth_genericattributeprofile.cp313-win_amd64.pyd').
+# extension module 'winrt._winrt_windows_devices_bluetooth_genericattributeprofile' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_devices_bluetooth_genericattributeprofile.cp313-win_amd64.pyd'
+# extension module 'winrt._winrt_windows_devices_bluetooth_genericattributeprofile' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_devices_bluetooth_genericattributeprofile.cp313-win_amd64.pyd'
+import 'winrt._winrt_windows_devices_bluetooth_genericattributeprofile' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392CEF1D0>
+import 'winrt.windows.devices.bluetooth.genericattributeprofile' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392E87EF0>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices): find_spec: called with fullname='winrt.windows.devices.enumeration', target='winrt.windows.devices.enumeration'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices): find_spec: 'winrt.windows.devices.enumeration' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt\windows\devices): find_spec: fallback finder returned spec: ModuleSpec(name='winrt.windows.devices.enumeration', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392F28170>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices\\enumeration\\__init__.pyc', submodule_search_locations=['C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices\\enumeration']).
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\windows\\devices\\enumeration\\__init__.pyc'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: called with fullname='winrt._winrt_windows_devices_enumeration', target='winrt._winrt_windows_devices_enumeration'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: 'winrt._winrt_windows_devices_enumeration' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='winrt._winrt_windows_devices_enumeration', loader=<_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392CEF280>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_devices_enumeration.cp313-win_amd64.pyd').
+# extension module 'winrt._winrt_windows_devices_enumeration' loaded from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_devices_enumeration.cp313-win_amd64.pyd'
+# extension module 'winrt._winrt_windows_devices_enumeration' executed from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\winrt\\_winrt_windows_devices_enumeration.cp313-win_amd64.pyd'
+import 'winrt._winrt_windows_devices_enumeration' # <_frozen_importlib_external.ExtensionFileLoader object at 0x0000029392CEF280>
+import 'winrt.windows.devices.enumeration' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392F28170>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: called with fullname='bleak.backends.winrt.characteristic', target='bleak.backends.winrt.characteristic'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: 'bleak.backends.winrt.characteristic' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.backends.winrt.characteristic', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392F29B50>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt\\characteristic.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt\\characteristic.pyc'
+import 'bleak.backends.winrt.characteristic' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392F29B50>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: called with fullname='bleak.backends.winrt.descriptor', target='bleak.backends.winrt.descriptor'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: 'bleak.backends.winrt.descriptor' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.backends.winrt.descriptor', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392F2B110>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt\\descriptor.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt\\descriptor.pyc'
+import 'bleak.backends.winrt.descriptor' # <_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392F2B110>
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: called with fullname='bleak.backends.winrt.service', target='bleak.backends.winrt.service'
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: 'bleak.backends.winrt.service' not found in PYZ...
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: attempting resolve using fallback finder FileFinder('C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt').
+PyiFrozenImporter(C:\Users\joran\AppData\Local\Temp\_MEI121162\bleak\backends\winrt): find_spec: fallback finder returned spec: ModuleSpec(name='bleak.backends.winrt.service', loader=<_frozen_importlib_external.SourcelessFileLoader object at 0x0000029392F2B470>, origin='C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt\\service.pyc').
+# code object from 'C:\\Users\\joran\\AppData\\Local\\Temp\\_MEI121162\\bleak\\backends\\winrt\\service.pyc'
